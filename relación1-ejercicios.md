@@ -4,7 +4,7 @@
 
 ### Selección de servidor
 
-![Imagen hp](./imgs/hp_logo.png =150x150)
+![Imagen hp](./imgs/hp_logo.png)
 
 En mi caso he consultado el catálogo de la tienda [HP](http://store.hp.com/us/en/mdp/dl380-gen-9-servers#!&tab=vao). Los precios varían desde 1900$ hasta 7500$ por el servidor, aunque luego el precio se puede incrementar si necesitamos alguna serie de extras.
 
@@ -22,6 +22,9 @@ Consultando la [tabla de amortización de 2017](http://www.agenciatributaria.es/
 | ---- | ------------------ | ----------------------- | ------------------ |
 | 4 |  730 € | 25 % | 2920€ |
 | 7 | 417.14 € | 14.3 % | 2920€ |
+
+
+0€ |
 
 
 
