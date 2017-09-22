@@ -23,12 +23,9 @@ Consultando la [tabla de amortización de 2017](http://www.agenciatributaria.es/
 | 4 |  730 € | 25 % | 2920€ |
 | 7 | 417.14 € | 14.3 % | 2920€ |
 
-
 ---
 
-
 ---
-
 
 ## Ejercicio 2:  *Usando las tablas de precios de servicios de alojamiento en Internet “clásicos”, es decir, que ofrezcan Virtual Private Servers o servidores físicos, y de proveedores de servicios en la nube, comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.*
 
@@ -48,4 +45,34 @@ Como provedoor de servicios "clásicos" eligiremos **Ginernet** y como proveedor
 | DigitalOcean | 10 % (36.5 días, 876 horas) | 0,012€/hora |  **10,51€** |
 
 Como podemos ver la diferencia va desde pagar **7 veces más** en el caso de un 10% de uso de la infraestructura a pagar **72 veces más** en el caso de uso de 1%. Esto se debe a que un servicio "clásico" deberíamos pagarlo mes a mes, estemos usándolo o no, mientras que en un servicio en la nube solo pagaríamos por el tiempo que usamos la infraestructura.
+
+---
+
+---
+
+## Ejercicio 3:  *En general, cualquier ordenador con menos de 5 o 6 años tendrá estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden? Si usas una máquina virtual, ¿qué resultado da? ¿Y en una Raspberry Pi o, si tienes acceso, el procesador del móvil?*
+
+El modelo del procesador de mi ordenador portátil es:
+ **Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz**. 
+
+Al ejecutar el comando: 
+
+~~~
+egrep '^flags.*(vmx|svm)' /proc/cpuinfo
+~~~
+
+La salida es la siguiente:
+![cpuinfo](./imgs/cpuinfo.png)
+
+El modelo del procesador de mi móvil es: 
+**ARMv7 Processor rev 4 (v7l)**.
+
+La salida del comando egrep es la siguiente:
+![cpuinfo movil](./imgs/cpuinfo-movil.png)
+
+Con lo que concluimos que el procesador de mi portátil tiene posibilidad de virtualizar pero el de mi móvil no.
+
+
+
+
 
