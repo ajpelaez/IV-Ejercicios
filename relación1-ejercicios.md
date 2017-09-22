@@ -24,7 +24,4 @@ Consultando la [tabla de amortización de 2017](http://www.agenciatributaria.es/
 | 7 | 417.14 € | 14.3 % | 2920€ |
 
 
-0€ |
-
-
 
