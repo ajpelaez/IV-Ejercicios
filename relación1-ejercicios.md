@@ -23,5 +23,24 @@ Consultando la [tabla de amortización de 2017](http://www.agenciatributaria.es/
 | 4 |  730 € | 25 % | 2920€ |
 | 7 | 417.14 € | 14.3 % | 2920€ |
 
+---
+
+## **Ejercicio 2:**  Usando las tablas de precios de servicios de alojamiento en Internet “clásicos”, es decir, que ofrezcan Virtual Private Servers o servidores físicos, y de proveedores de servicios en la nube, comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
+
+Como provedoor de servicios "clásicos" eligiremos **Ginernet** y como proveedorde servicios en la nube **DigitalOcean**.
+
+| Proveedor | Producto | Disco duro | RAM | Procesador | Precio |
+| [Ginernet](https://ginernet.com/es/servidores/vps/openvz/ssd/) | SSD-1G-LEB |  20 GB SSD | 1 GB | 1 vCPU |  6,04€/mes |
+| [DigitalOcean](https://www.digitalocean.com/pricing/) | 10$ Droplet | 30GB SSD | 1 GB | 1vCPU | 8,36€/mes (0,012€/hora) |
+
+### Coste anual
+| Proveedor | Tiempo de uso | Precio | Coste anual |
+| ------------------ | ------------------------ | ----------- | -------------------- |
+| Ginernet | 1 % (3.65 días, 88 horas) | 6,04€/mes | **72,48€** |
+| DigitalOCean | 1 % (3.65 días, 88 horas) | 0,012€/hora |  **1,056€** |
+| Ginernet | 10 % (36.5 días, 876 horas) | 6,04€/mes | **72,48€** |
+| DigitalOCean | 10 % (36.5 días, 876 horas) | 0,012€/hora |  **10,51€** |
+
+Como podemos ver la diferencia va desde pagar **7 veces más** en el caso de un 10% de uso de la infraestructura a pagar **72 veces más** en el caso de uso de 1%. Esto se debe a que un servicio "clásico" deberíamos pagarlo mes a mes, estemos usándolo o no, mientras que en un servicio en la nube solo pagaríamos por el tiempo que usamos la infraestructura.
 
 
