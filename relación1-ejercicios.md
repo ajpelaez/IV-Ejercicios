@@ -1,6 +1,6 @@
 # Introducción a la infraestructura virtual: concepto y soporte físico
 ---
-## **Ejercicio 1:** Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
+## Ejercicio 1: *Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.*
 
 ### Selección de servidor
 
@@ -23,11 +23,14 @@ Consultando la [tabla de amortización de 2017](http://www.agenciatributaria.es/
 | 4 |  730 € | 25 % | 2920€ |
 | 7 | 417.14 € | 14.3 % | 2920€ |
 
----
 
 ---
 
-## **Ejercicio 2:**  Usando las tablas de precios de servicios de alojamiento en Internet “clásicos”, es decir, que ofrezcan Virtual Private Servers o servidores físicos, y de proveedores de servicios en la nube, comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
+
+---
+
+
+## Ejercicio 2:  *Usando las tablas de precios de servicios de alojamiento en Internet “clásicos”, es decir, que ofrezcan Virtual Private Servers o servidores físicos, y de proveedores de servicios en la nube, comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.*
 
 Como provedoor de servicios "clásicos" eligiremos **Ginernet** y como proveedorde servicios en la nube **DigitalOcean**.
 
