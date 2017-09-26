@@ -72,7 +72,33 @@ La salida del comando egrep es la siguiente:
 
 Con lo que concluimos que el procesador de mi portátil tiene posibilidad de virtualizar pero el de mi móvil no.
 
+---
 
+---
 
+## Ejercicio 4:  *Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok. Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.*
 
+Ejecutamos el comando **kvm-ok** y vemos que la salida es:
+
+![kvm-ok](./imgs/kvm-ok.png)
+
+Por lo que nuestro núcleo contiene el módulo del kernel.
+
+Como hipervisor usaremos virtualbox que ya lo teníamos instalado anteriormente.
+
+---
+
+---
+
+## Ejercicio 5:  *Darse de alta en servicios de nube usando ofertas gratuitas o cupones que pueda proporcionar el profesor.*
+
+awgwagaga
+
+---
+
+---
+
+## Ejercicio 6:  *Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube anteriores.*
+
+fwafafa
 
