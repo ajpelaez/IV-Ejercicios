@@ -82,7 +82,7 @@ Ejecutamos el comando **kvm-ok** y vemos que la salida es:
 
 ![kvm-ok](./imgs/kvm-ok.png)
 
-Por lo que nuestro núcleo contiene el módulo del kernel.
+Por lo vemos que nuestro núcleo contiene el módulo del kernel.
 
 Como hipervisor usaremos virtualbox que ya lo teníamos instalado anteriormente.
 
