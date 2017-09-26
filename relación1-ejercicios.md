@@ -91,14 +91,13 @@ Como hipervisor usaremos virtualbox que ya lo teníamos instalado anteriormente.
 ---
 
 ## Ejercicio 5:  *Darse de alta en servicios de nube usando ofertas gratuitas o cupones que pueda proporcionar el profesor.*
-
-awgwagaga
-
----
-
----
-
 ## Ejercicio 6:  *Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube anteriores.*
 
-fwafafa
+![aws1](./imgs/aws1.png)
+
+Como plataforma de servicios de nube he usado Amazon Web Services(AWS), usando AWS educate he conseguido 100$ de crédito gratis para usar en servicios cloud. Además te dan acceso a varios cursos para aprender a usar la plataforma de AWS.
+
+![aws2](./imgs/aws2.png)
+
+
 
