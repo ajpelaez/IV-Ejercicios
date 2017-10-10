@@ -58,3 +58,55 @@ def _():
         tipo2 = type(tripManager.getTrips()).__name__
         assert (tipo, tipo2)
 ~~~
+
+![pocha][imgs/pocha.png]
+
+---
+
+---
+
+## Ejercicio 4: *Instalar alguno de los entornos virtuales de node.js (o de cualquier otro lenguaje con el que se esté familiarizado) y, con ellos, instalar la última versión existente, la versión minor más actual de la 4.x y lo mismo para la 0.11 o alguna impar (de desarrollo).*
+
+~~~
+sudo apt-get install virtualenv python-virtualenv
+virtualenv --python=/usr/bin/python2.7 python2.7
+virtualenv --python=/usr/bin/python3.5 python3.5
+~~~
+
+## Ejercicio 5: *Como ejercicio, algo ligeramente diferente: una web para calificar las empresas en las que hacen prácticas los alumnos.
+
+Las acciones serían
+
+Crear empresa
+Listar calificaciones para cada empresa
+crear calificación y añadirla (comprobando que la persona no la haya añadido ya)
+borrar calificación (si se arrepiente o te denuncia la empresa o algo)
+Hacer un ránking de empresas por calificación, por ejemplo
+Crear un repositorio en GitHub para la librería y crear un pequeño programa que use algunas de sus funcionalidades.
+Si se quiere hacer con cualquier otra aplicación, también es válido.
+
+Se trata de hacer una aplicación simple que se pueda hacer rápidamente con un generador de aplicaciones como los que incluyen diferentes marcos MVC. Si cuesta mucho trabajo, simplemente prepara una aplicación que puedas usar más adelante en el resto de los ejercicios.*
+
+He creado una pequeña aplicación en python que implementa todas las funciones descritas en el ejercicio.
+[Enlace al repositorio de la aplicación](https://github.com/ajpelaez/RateCompany)
+
+---
+
+---
+
+## Ejercicio 6: *Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?*
+
+Hemos ejecutado el programa con Python 2.7 y con Python 3 y en este caso funciona en ambas.
+
+---
+
+---
+
+## Ejercicio 7: *Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente.*
+
+Para esto hemos usado la herramienta pip, creando un fichero requirements.txt que contiene las dependencias necesarias para ejecutar nuestro proyecto:
+~~~
+pyTelegramBotAPI==3.2.1
+git+git://github.com/ajpelaez/BlaBlaCar-Client-Api@master
+git+git://github.com/ajpelaez/pocha
+~~~
