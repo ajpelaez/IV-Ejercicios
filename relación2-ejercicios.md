@@ -73,7 +73,7 @@ virtualenv --python=/usr/bin/python2.7 python2.7
 virtualenv --python=/usr/bin/python3.5 python3.5
 ~~~
 
-## Ejercicio 5: *Como ejercicio, algo ligeramente diferente: una web para calificar las empresas en las que hacen prácticas los alumnos.
+## Ejercicio 5: *Como ejercicio, algo ligeramente diferente: una web para calificar las empresas en las que hacen prácticas los alumnos.*
 
 Las acciones serían
 
