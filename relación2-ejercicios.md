@@ -59,7 +59,7 @@ def _():
         assert (tipo, tipo2)
 ~~~
 
-![pocha][./imgs/pocha.png]
+![pocha](./imgs/pocha.png)
 
 ---
 
